@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MapApp</string>
+    <string name="tirp_list">Lista wycieczek</string>
+    <string name="map_settings">Ustawienia mapy</string>
+    <string name="trip_card_estimated_time">Szacowany czas</string>
+    <string name="trip_card_minutes">minut</string>
+    <string name="show_on_map">Pokaż na mapie</string>
+    <string name="title">Tytuł</string>
+    <string name="trip_description">Opis wycieczki, bardzo obszerny bo wycieczka taka ciekawa!!!</string>
+
+    <string-array name="MapLayouts">
+        <item>Standard</item>
+        <item>Retro</item>
+        <item>Silver</item>
+        <item>Night</item>
+        <item>Aubergine</item>
+    </string-array>
+
+    <string-array name="RouteColors">
+        <item>Pomarańczowy</item>
+        <item>Niebieski</item>
+        <item>Fioletowy</item>
+    </string-array>
+
+    <string-array name="MapType">
+        <item>Normalna</item>
+        <item>Satelitarna</item>
+        <item>Hybrydowa</item>
+        <item>Terenowa</item>
+    </string-array>
+</resources>

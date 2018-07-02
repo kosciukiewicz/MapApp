@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/trips_list"
+        android:title="@string/tirp_list"
+        android:icon="@drawable/ic_map_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/map_settings"
+        android:title="@string/map_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="ifRoom"/>
+</menu>

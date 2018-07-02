@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory android:title="Ustawienia mapy">
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="show_smaller_roads"
+            android:summary="Deklaruje wyświetlanie na mapie mniejszych ścieżek i dróg"
+            android:title="Mniejsze ścieżki" />
+
+        <android.support.v7.preference.ListPreference
+            android:key="map_type"
+            android:defaultValue="Normalna"
+            android:entries="@array/MapType"
+            android:entryValues="@array/MapType"
+            android:summary="Określa tryb w jakim będzie wyświtlana mapa"
+            android:title="Tryb mapy" />
+
+        <android.support.v7.preference.ListPreference
+            android:key="route_color"
+            android:defaultValue="Pomarańczowy"
+            android:entries="@array/RouteColors"
+            android:entryValues="@array/RouteColors"
+            android:summary="Określa kolor ścieżki na mapie"
+            android:title="Kolor trasy"/>
+
+        <android.support.v7.preference.ListPreference
+            android:key="map_layout"
+            android:defaultValue="Standard"
+            android:entries="@array/MapLayouts"
+            android:entryValues="@array/MapLayouts"
+            android:summary="Określa temat przewodni mapy"
+            android:title="Wygląd mapy"/>
+    </android.support.v7.preference.PreferenceCategory>
+</PreferenceScreen>

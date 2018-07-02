@@ -1,0 +1,8 @@
+{
+  "featureType": "road.local",
+  "stylers": [
+    {
+      "visibility": "off"
+    }
+  ]
+}
